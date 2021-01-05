@@ -31,69 +31,57 @@ button{outline:0}/*선택할때 나오는 선을 안보이게 만듦*/
 #nav_pop{position: fixed;width: 100%;min-width: 1024px;/*더이상 작아지지않도록*/
       height: 100%;overflow: auto;
       background-color: #F9F8F3;
-      z-index: 99999999999999;line-height: 30px; color: #000;display: none;}
+      z-index: 999999999999999999;line-height: 30px; color: #000;display: none;
+      }
     
 #nav_pop .navpop_inner{width: 1024px;margin: 0 auto;}
-#nav_pop #nav_iogo{position: relative;margin-bottom: 30px;margin-top: 30px;border-bottom: 1px solid #000;}
-#nav_pop img{width: 193px;height: 42px;margin-bottom: 15px;}
-#nav_pop #nav_iogo .nav_close{position: absolute;top: 0;right: 0;}
-#nav_pop .depth1{text-align: center;}
-#nav_pop .depth1 > li{width: 25%; margin-bottom: 100px;float: right;}
+#nav_pop #nav_iogo{margin-bottom: 30px;margin-top: 30px;
+      border-bottom: 1px solid #6f6f6f;
+}
+#nav_pop img{width: 300px;height: 68px;
+      margin-bottom: 50px;margin-top: 50px;
+      padding-left:calc((100% - 300px) / 2);}
+#nav_pop .depth1{}
+#nav_pop .depth1 > li{width: 200px; margin-bottom: 100px;float: left;text-align: center;}
 #nav_pop .depth1 > li > a{font-size: 1.3rem;margin-bottom: 20px;display: block;font-weight: bold;}
-/* #nav_pop .depth1 > li > a::after{content: '';display: block;width: 80px;margin-top: 10px;text-align: center; border-bottom: 1px solid #ffffff;} */
-#nav_pop .depth1 ul{}
 
-/*네비버튼 디자인*/
-.btn_all {width:30px;height:30px;position:absolute;
-       top:0px;right: 0;
-       z-index:100; }
-.btn_all span    
-{
-position: absolute;
-right: 0;
-height: 3px;
-background-color: #000;
-transition: all .2s ease-in-out;
--webkit-transition: all .2s ease-in-out;
-width: 100%;
-border-radius: 2px;
-}
-.btn_all span:nth-child(1){
-    top:10px;
-    transform: rotate(45deg)
-}
-.btn_all span:nth-child(2){
-    top:10px;
-    width:0
-}
-.btn_all span:nth-child(3){
-    top: 10px;
-    transform: rotate(-45deg)
-}
 
 
 .wrap{width: 100%;min-width: 1024px;overflow: hidden;}
 .inner{min-width:1024px;max-width:1280px;margin:0 auto;}
 
-#header{background-color: #213031;}
+#header{background-color: #213031;height: 82px;}
 
 /***.top_icon***/
 #header .top_icon{float: right;
-    width:215px;height:75px;
+     height:75px;margin-right: 100px;
    }
-
-#header .top_icon{float: right;
-      width:126px;height:45px;
-     }
-#header .top_icon{width: 256px; height: 74px;margin: 0 auto;}
 #header .top_icon img{float: left; width: 24px; height: 25px; position: absolute;
       padding-left: 20px; padding-right: 20px;padding-top: 24.5px;}
 #header .top_icon div{float: left; width: 64px; height: 74px;}
 
+/* 네비off 상태일 때 디자인 */
+#nav_pop_btn{display:block; width:30px;height:30px;position:absolute;
+      right:50px;top:28px;
+      display: inline-block;z-index:999999999999999999999999999999999999999999;
+}
+
+#nav_pop_btn span{position:absolute;height:2px; width:30px;
+      background-color:#fff;transition:0.5s;
+}
+#nav_pop_btn span:first-child { top:0 }
+#nav_pop_btn span:nth-child(2) { top: 8px;width: 20px;left: 10px;}
+#nav_pop_btn span:last-child { top:16px}
+
+/* 네비on 상태일 때 디자인 */
+#nav_pop_btn.on span:first-child { top:13px; transform: rotate(45deg);background-color: #000;}
+#nav_pop_btn.on span:nth-child(2) {width: 0;background-color: #000;}
+#nav_pop_btn.on span:last-child { top:13px; transform: rotate(-45deg);background-color: #000;}
+
 
 /***#logo***/
 #header #logo{float:left; }
-#header #logo img{width: 193px; height: 42px; margin-top:15px;margin-left: 95px;}
+#header #logo img{width: 200px; height: 45px; margin-top:15px;margin-left: 95px;}
 
 
 /***#nav4***/
