@@ -7,16 +7,336 @@
 
 <title>Untitled Document</title>
 
+<link rel="stylesheet" type="text/css" href="./css/slick.css">
 <link href="css/common.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
+
 <script src="js/jquery-3.1.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-3.0.0.js"></script>  
+<script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/slide.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/main.js"></script>
 
 </head>
 
 <body >
 <div id="wrap">
-  <header id="header"></header>
-  <section></section>
+  <div id="nav_pop">
+    <div class="navpop_inner">
+      <h1 id="nav_iogo">
+        <img src="images/main_logo_black.png">
+        <div class="btn_all">
+          <span></span>
+          <span></span>
+          <span></span>    
+        </div>
+        <div class="box">
+        </div>
+      </h1>
+      <ul class="depth1" >
+        <li><a href="#">CAFFE PASCUCCI</a>
+          <div class="nav_box">
+              <ul class="depth2">
+               <li><a href="#">브랜드소개</a>
+               </li>
+               <li><a href="#">한국파스쿠찌</a>
+               </li>
+               <li><a href="#">이탈리야파스쿠찌</a>
+               </li>
+               <li><a href="#">커피&컬처</a>
+               </li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">MENU</a>
+         <div class="nav_box">
+             <ul class="depth2">
+              <li><a href="#">coffee</a>
+              </li>
+              <li><a href="#">beverage</a>
+              </li>
+              <li><a href="#">food</a>
+              </li>
+              <li><a href="#">md</a>
+              </li>
+           </ul>
+         </div>
+       </li>
+       <li><a href="#">NEWS</a>
+         <div class="nav_box">
+             <ul class="depth2">
+              <li><a href="#">이벤트</a>
+              </li>
+              <li><a href="#">공지사항</a>
+              </li>
+              <li><a href="#">파스쿠찌 talk</a>
+              </li>
+              <li><a href="#">홍보센터</a>
+              </li>
+           </ul>
+         </div> 
+       </li>
+       <li><a href="#">STORE</a>
+         <div class="nav_box">
+             <ul class="depth2">
+              <li><a href="#">매장안내</a>
+              </li>
+           </ul>
+         </div>
+       </li>
+       <li><a href="#">CUSTOMER</a>
+         <div class="nav_box">
+             <ul class="depth2">
+              <li><a href="#">제휴안내</a>
+              </li>
+              <li><a href="#">자주하는 질문</a>
+              </li>
+              <li><a href="#">1:1문의하기</a>
+              </li>
+           </ul>
+         </div> 
+       </li>
+  </ul>   
+    </div>
+  </div>
+
+  <header id="header">
+    <h1 id="logo">
+      <a href="index.html"><img src="images/main_logo_white.png" alt="로고입니다"></a>
+    </h1>
+
+    <nav id="nav4">
+      <ul class="depth1" >
+
+        <li><a href="#">CAFFE PASCUCCI</a>
+          <div class="nav_box">
+              <ul class="depth2">
+               <li><a href="#">브랜드소개</a>
+               </li>
+               <li><a href="#">한국파스쿠찌</a>
+               </li>
+               <li><a href="#">이탈리야파스쿠찌</a>
+               </li>
+               <li><a href="#">커피&컬처</a>
+               </li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">MENU</a>
+         <div class="nav_box">
+             <ul class="depth2">
+              <li><a href="#">coffee</a>
+              </li>
+              <li><a href="#">beverage</a>
+              </li>
+              <li><a href="#">food</a>
+              </li>
+              <li><a href="#">md</a>
+              </li>
+           </ul>
+         </div>
+       </li>
+       <li><a href="#">NEWS</a>
+         <div class="nav_box">
+             <ul class="depth2">
+              <li><a href="#">이벤트</a>
+              </li>
+              <li><a href="#">공지사항</a>
+              </li>
+              <li><a href="#">파스쿠찌 talk</a>
+              </li>
+              <li><a href="#">홍보센터</a>
+              </li>
+           </ul>
+         </div> 
+       </li>
+       <li><a href="#">STORE</a>
+         <div class="nav_box">
+             <ul class="depth2">
+              <li><a href="#">매장안내</a>
+              </li>
+           </ul>
+         </div>
+       </li>
+       <li><a href="#">CUSTOMER</a>
+         <div class="nav_box">
+             <ul class="depth2">
+              <li><a href="#">제휴안내</a>
+              </li>
+              <li><a href="#">자주하는 질문</a>
+              </li>
+              <li><a href="#">1:1문의하기</a>
+              </li>
+           </ul>
+         </div> 
+       </li>
+      </ul> 
+    </nav>
+
+    <div class="top_icon">
+      <div>
+        <a href="#"><img src="images/navicon_1.png"></a>
+      </div>
+      <div>
+        <a href="#"><img src="images/navicon_2-1.png"></a>
+      </div>
+      <div id="nav_pop_btn">
+        <a href="#"><img src="images/quick3.png"></a>
+      </div>  
+    </div>
+
+    <section id="sec1" class="lazy slider" data-sizes="50vw">
+      <div>
+        <img data-lazy="http://placehold.it/350x300?text=2-350w" data-srcset="http://placehold.it/650x300?text=2-650w 650w, http://placehold.it/960x300?text=2-960w 960w" data-sizes="100vw">
+      </div>
+      <div>
+        <img src="images/main_slide1.gif" alt="메인화면입니다">
+      </div>
+      <div>
+        <img data-lazy="http://placehold.it/350x300?text=2-350w" data-srcset="http://placehold.it/650x300?text=2-650w 650w, http://placehold.it/960x300?text=2-960w 960w" data-sizes="100vw">
+      </div>
+      </section>
+  </header>
+
+  <section id="sec2" class="inner">
+    <div class="tit">
+      <img src="images/tit_img_left.png">
+      <h1>PASCUCCI’S CHOICE</h1>
+      <img src="images/tit_img_right.png">
+    </div>
+
+    <div class="sec2_imgbox">
+      <ul>
+        <li>
+          <img src="images/choice_1-1.jpg">
+          <h2>PASCUCCI’S BEVERAGE</h2>
+          <p>Canola Apple Tea & Grapefruit Juice</p>
+        </li>
+        <li>
+          <img src="images/choice_2.jpg">
+          <h2>PASCUCCI’S FOOD</h2>
+          <p>Chocolate Strawberry Cake</p>
+        </li>
+        <li>
+          <img src="images/choice_3.jpg">
+          <h2>PASCUCCI’S MD</h2>
+          <p>Mint Crew & First Break</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="sec3">
+    <div>
+    <h1>
+      <img>
+      PASCUCCI’S MENU
+      <img>
+    </h1>
+  </div>
+    <div class="sec_imgbox">
+      <ul>
+        <li>
+          <img>
+          <h2>COFFEE</h2>
+          <p>Affogato</p>
+          <button>MORE</button>
+        </li>
+        <li>
+          <img>
+          <h2>BEVERAGE</h2>
+          <p>White Milk Shake</p>
+          <button>MORE</button>
+        </li>
+        <li>
+          <img>
+          <h2>CAKE</h2>
+          <p>Double Cheese Cake</p>
+          <button>MORE</button>
+        </li>
+        <li>
+          <img>
+          <h2>MD</h2>
+          <p>New Ethiopia Mug</p>
+          <button>MORE</button>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="sec4">
+    <div>
+      <img>
+    </div>
+    <div>
+      <p>PASCUCCI YouTube</p>
+      <h1>PASCUCCI'S CHANNEL</h1>
+      <p>#파스쿠찌 #파자마 #크리스마스 #파티</p>
+      <div>
+        <img>
+        <p>시즌 한정</p>
+        <p>렛잇스노우케익</p>
+        <h2>2,9000원</h2>
+        <div class="channel_btn">
+          <img>
+          <img>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cont1"></section>
+  <section id="sky" class="paral" >
+    <div>
+    <h1>PASCUCCI'S BRAND STORY</h1>
+    <h3>전통과 장인정신, 노하우</h3>
+    <p>한국 식품 산업과 프랜차이즈의 형태를 잘 알고 종합식품회사로 프랑스 등 선진 디저트 기술도 확보한 실력 있는 한국 종합 식품기업, 
+      그리고 이탈리아 정통 에스프레소와 커피 문화를 가진 오리지널 커피 전문 브랜드.</p>
+    </div>
+  </section>
+
+  <section id="sec6" class="regular slider">
+      <div>
+        <img src="http://placehold.it/350x300?text=1">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=2">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=3">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=4">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=5">
+      </div>
+  </section>
+
+  <section id="sec7" class="center slider">
+      <div>
+        <img src="http://placehold.it/350x300?text=1">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=2">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=3">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=4">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=5">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=6">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=7">
+      </div>
+  </section>
+
   <footer id="footer"></footer>
 </div>
 </body>

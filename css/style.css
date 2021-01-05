@@ -3,10 +3,45 @@
 #section{}
 #footer{}
 
+h1{font-family: 'Amatic SC', cursive;font-weight: 700;font-size: 2.375rem;}
+h2{font-size: 1.375rem;display: inline-block;}
+h3{font-size: 0.937rem;display: inline-block;}
+
 /*********************header****************************/
 
 
-/*********************section****************************/
 
+/*********************section2****************************/
+#sec2{}
+#sec2 .tit{margin-left: calc(50% - 280px);margin-top: 90px;}
+#sec2 h1{display: inline;}
+#sec2 .tit >img{
+    width: 180px;height: 70px;
+    display: inline;margin-bottom: 18px;
+}
+#sec2 li >img{width: 400px;height: 380px;}
+
+/* width: calc((100% - 70px) / 3); */
+#sec2 .sec2_imgbox > li{float: left;}
+
+
+
+/*********************section****************************/
+/*패럴렉스*/
+body{height:2000px;}
+*, html {
+	margin:0;
+	padding:0;
+	}
+#cont1{height:500px}
+#sky {
+	background:url('../images/brand_back_img4.jpg') center;
+      background-size:100%;
+	position:relative;
+	width:100%;
+	height:500px;
+	margin:0 auto;	
+      background-color:red
+	}	
 
 /*********************footer****************************/
