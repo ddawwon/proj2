@@ -3,45 +3,158 @@
 #section{}
 #footer{}
 
-h1{font-family: 'Amatic SC', cursive;font-weight: 700;font-size: 2.375rem;}
+h1{font-family: 'Amatic SC', cursive;font-weight: 700;font-size: 2.375rem;color: #000;}
 h2{font-size: 1.375rem;display: inline-block;}
 h3{font-size: 0.937rem;display: inline-block;}
 
 /*********************header****************************/
 
 
+/* width: calc((100% - 70px) / 3); */
 
 /*********************section2****************************/
-#sec2{}
-#sec2 .tit{margin-left: calc(50% - 280px);margin-top: 90px;}
+#sec2{background-color: #F9F8F3;height: 650px;}
+#sec2 .tit{text-align: center; margin-top: 90px;margin-bottom: 60px;}
 #sec2 h1{display: inline;}
 #sec2 .tit >img{
     width: 180px;height: 70px;
-    display: inline;margin-bottom: 18px;
-}
-#sec2 li >img{width: 400px;height: 380px;}
-
-/* width: calc((100% - 70px) / 3); */
-#sec2 .sec2_imgbox > li{float: left;}
-
+    display: inline;margin-bottom: 18px;}
+#sec2 .inner.sec2box{}
+.sec2box div{float: left;width: 420px;height: 517px;box-sizing: border-box;text-align: center;}
+.sec2box div >img{width: 400px;height: 380px;border-radius: 50px;margin-bottom: 60px;}
+.sec2box h2{margin-bottom: 10px;}
 
 
-/*********************section****************************/
+
+/*********************section3****************************/
+#sec3{background-color: #F9F8F3;height: 550px;margin-bottom: 150px;}
+#sec3 .tit{text-align: center; margin-top: 200px;margin-bottom: 60px;}
+#sec3 h1{display: inline;}
+#sec3 .tit >img{
+    width: 180px;height: 70px;
+    display: inline;margin-bottom: 18px;}
+
+#sec3 .sec3box div{display: inline-block;margin-left: 90px;text-align: center;}
+#sec3 .sec3box div > img{width: 222px;height: 222px;border-radius: 50px;margin-bottom: 50px;}
+#sec3 .sec3box div > h2{display: block;margin-bottom: 10px;}
+#sec3 .sec3box div > p{margin-bottom: 20px;}
+#sec3 .sec3box div > button{border: none;width: 74px;height: 28px;
+                            border-radius: 50px;
+                            background-color: #fff;
+                            color: #CC2538;}
+#sec3 .sec3box div > button:hover{ background-color:#183B1B; color: #fff;}
+
+
+
+/*********************section4****************************/
+#sec4{background-color: #DCE4DD;width: 100%;}
+#sec4 .inner{background-color: #DCE4DD; height: 600px;}
+#sec4 .videoimg{position: relative;}
+#sec4 .videoimg > img{width: 766px;height: 433px;border-radius: 50px;float: left;
+                      margin-left: 50px; margin-right: 50px;margin-top: 90px;}
+
+#sec4 .videobtn img{transition:all 1s ease;}       
+#sec4 .videobtn img:hover{transform: scale(1.3);cursor: pointer;}              
+#sec4 .videobtn img{width: 63px;height: 63px;position: absolute;top: 280px;left:32%;}
+
+
+
+#sec4 .menubox{float: left;margin-top: 140px;}
+#sec4 .menubox > p{margin-bottom: 20px;}
+#sec4 .menubox h1{margin-bottom: 8px;}
+
+#sec4 .menubox2{display: inline-block;margin-top: 30px;}
+#sec4 .menubox2 img{width: 160px;height: 180px;border-radius:25px;display: inline-block;
+                    margin-right: 40px;}
+
+#sec4 .sec4txtbox{float: right;}
+#sec4 .menubox2 p{margin-top: 10px;}
+#sec4 .menubox2 h2{margin-top: 20px;margin-bottom: 20px;}
+
+#sec4 .sec4btn{}
+#sec4 .channel_btn1{width: 49px;height: 49px;background-color: #D5D5D5;display: inline-block;border-radius: 50px;
+                    margin-right: 10px;transition: all 1s ease;}
+#sec4 .channel_btn1:hover{background-color: #fff;cursor: pointer;transform: scale(1.1);}
+#sec4 .channel_btn1 >img{width: 25px;height: 25px;padding: 11px;}
+
+#sec4 .channel_btn2{width: 49px;height: 49px;background-color: #D5D5D5;
+                    display: inline-block;border-radius: 50px;transition: all 1s ease;}
+#sec4 .channel_btn2:hover{background-color: #fff;cursor: pointer;transform: scale(1.1);}
+#sec4 .channel_btn2 >img{width: 30px;height: 30px;padding: 11px;}
+
+
+
+/*********************section5****************************/
 /*패럴렉스*/
-body{height:2000px;}
+body{height:100%;background-color:#F9F8F3;}
 *, html {
 	margin:0;
 	padding:0;
-	}
-#cont1{height:500px}
+    }
+    
+#cont1{height:200px;background-color: #F9F8F3;}
 #sky {
-	background:url('../images/brand_back_img4.jpg') center;
-      background-size:100%;
+    background:url('../images/brand_back_img4.jpg') center;
+    background-size: 1903px 1100px;
 	position:relative;
 	width:100%;
-	height:500px;
+	height:420px;
 	margin:0 auto;	
-      background-color:red
+    background-color:darkkhaki;
+    text-align: center;
+    margin-bottom: 140px;
 	}	
+#sky .tit{text-align: center;margin-bottom: 20px;}
+#sky h1{display: inline-block;margin-top: 90px;}
+#sky h2{margin-bottom: 10px;}
+#sky p{line-height: 30px;}
+#sky .tit >img{
+        width: 180px;height: 70px;
+        display: inline-block;margin-bottom: 18px;}
+
+
+
+/*********************section6****************************/
+#sec6{background-color:#F9F8F3;height: 500px;margin-bottom: 250px;}
+#sec6 .tit{text-align: center; margin-top: 70px;margin-bottom: 20px;}
+#sec6 h1{display: inline;}
+#sec6 .tit >img{
+    width: 180px;height: 70px;
+    display: inline;margin-bottom: 18px;}
+
+#sec6 .slider div{width: 100%;height: 100%;
+    margin-top: 10px; margin-bottom: 30px;
+    position: relative;
+}
+#sec6 .slider div img{width: 300px;height: 454px;
+    margin-right: 5px;margin-left: 5px; border-radius: 40px;
+    transition: 0.5s all ease;
+}
+#sec6 .slider div img:hover{transform: scale(1.1);position: absolute;}
+
+
+
+/*********************section7****************************/
+#sec7{background-color:#F9F8F3; height: 400px;margin-bottom: 90px;}
+#sec7 .tit{text-align: center; margin-top: 90px;margin-bottom: 20px;}
+#sec7 h1{display: inline;}
+#sec7 .tit >img{
+    width: 180px;height: 70px;
+    display: inline;margin-bottom: 18px;}
+
+#sec7 .slider{}
+#sec7 .slider img{width: 200px;height: 200px;}
+
+
 
 /*********************footer****************************/
+#footer{height: 170px;background-color: #F3F3F3;text-align: center;}
+#footer li{display: inline-block;
+    margin-top: 30px;margin-bottom: 20px;
+    padding-right: 10px;padding-left: 10px; 
+    border-right: 1px solid #D5D5D5;
+}
+#footer li:last-child{border-right: none;}
+#footer li:nth-child(2){color: #C7382F;}
+
+#footer p{line-height: 25px;}
