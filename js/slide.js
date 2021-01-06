@@ -3,8 +3,8 @@ $(function(){
         lazyLoad: 'ondemand', // ondemand progressive anticipated
         infinite: true,
         autoplay : true,
-        autoplaySpeed : 1000,
-        speed : 1000,
+        autoplaySpeed : 1500,
+        speed : 1500,
         pauseOnHover : true,
       });
 
