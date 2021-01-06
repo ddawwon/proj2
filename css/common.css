@@ -38,14 +38,20 @@ button{outline:0}/*선택할때 나오는 선을 안보이게 만듦*/
 #nav_pop #nav_iogo{margin-bottom: 30px;margin-top: 30px;
       border-bottom: 1px solid #6f6f6f;
 }
-#nav_pop img{width: 300px;height: 68px;
+#nav_pop #nav_iogo img{width: 300px;height: 68px;
       margin-bottom: 50px;margin-top: 50px;
       padding-left:calc((100% - 300px) / 2);}
 #nav_pop .depth1{}
-#nav_pop .depth1 > li{width: 200px; margin-bottom: 100px;float: left;text-align: center;}
-#nav_pop .depth1 > li > a{font-size: 1.3rem;margin-bottom: 20px;display: block;font-weight: bold;}
+#nav_pop .depth1 div >li{width: 195px;height: 170px;top: 0px;text-align: center;display: 
+      inline-block;vertical-align:top;margin-bottom: 30px;}
+#nav_pop .depth1 div >li >a{top: 0px; font-size: 1.3rem;margin-bottom: 20px;display: block;font-weight: bold;}
 
-
+/**네비 나무 이미지**/
+.deco{border-bottom: 1px solid #6f6f6f;width: 1024px;height: 360px;}
+.tree_left{float: left;margin-top: 200px; }
+.tree_left img{width: 80px;height: 160px;}
+.tree_right{float: right;margin-top: 200px;}
+.tree_right img{width: 80px;height: 160px;}
 
 .wrap{width: 100%;min-width: 1024px;overflow: hidden;}
 .inner{min-width:1024px;max-width:1280px;margin:0 auto;}
@@ -86,8 +92,8 @@ button{outline:0}/*선택할때 나오는 선을 안보이게 만듦*/
 
 /***#nav4***/
 #nav4{float: left;}
-#nav4 .depth1 {margin-left:300px;}
-#nav4 .depth1 > li {float:left;padding:0 30px}
+#nav4 .depth1{margin-left:300px;}
+#nav4 .depth1 > li {float:left;padding:0 30px;display: block;}
 #nav4 .depth1 > li > a {display: block;position: relative;
                         text-align: center;font:0.937rem;color:#F9F8F3;
                         font-weight: bold;line-height:75px;}
@@ -102,8 +108,8 @@ button{outline:0}/*선택할때 나오는 선을 안보이게 만듦*/
                background-color:#F9F8F3;z-index:9999999999;
                display: none;
                padding:10px 0; color: #000;}
+#nav4 .depth1>li:hover .nav_box{display: block;} 
 
-#nav4 .depth1>li:hover .nav_box{display: block;}   
 #nav4 .nav_box .depth2{widows: 100%;;margin:0 auto;position: relative; 
                          /* text-align: center; */
                          padding-left: 100px; box-sizing: border-box;}
@@ -115,3 +121,13 @@ button{outline:0}/*선택할때 나오는 선을 안보이게 만듦*/
                          background-color: #213031; border-radius: 50%;
                          margin-right: 20px; transform: translate(0,-3px);}
 #nav4 .depth2 >li:last-child::after{display: none;}
+
+
+
+#nav4 .nav_box img{
+      width: 200px;height: 200px;float: right;
+      top: 0px;right: 35%;margin-top: 34px; position: absolute;
+      border-radius: 40px;cursor: pointer;
+      transition: all ease 0.8s;
+}
+#nav4 .nav_box img:hover{transform: scale(1.1);}

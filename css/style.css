@@ -151,7 +151,7 @@ body{height:100%;background-color:#F9F8F3;}
 
 
 /*********************section7****************************/
-#sec7{background-color:#F9F8F3; height: 400px;margin-bottom: 90px;}
+#sec7{background-color:#F9F8F3; height: 400px;margin-bottom: 10px;}
 #sec7 .tit{text-align: center; margin-top: 90px;margin-bottom: 20px;}
 #sec7 h1{display: inline;}
 #sec7 .tit >img{
@@ -163,6 +163,16 @@ body{height:100%;background-color:#F9F8F3;}
 
 .hid_box7{overflow: hidden;width: 200px;height: 200px;
     box-sizing: border-box;}
+
+
+/**네비 나무 이미지**/
+.deco2{width: 100%;height: 160px;}
+
+.tree_left2{float: left;}
+.tree_left2 img{width: 80px;height: 160px;}
+
+.tree_right2{float: right;}
+.tree_right2 img{width: 80px;height: 160px;}
 
 
 /*********************footer****************************/
