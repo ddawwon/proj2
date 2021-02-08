@@ -124,15 +124,13 @@
 #sec1{clear:both}
 #sec1 .slick-slide img{width: 100%; min-width: 1024px;} /*반응형 최소이미지 잡아주기*/
 /*버튼*/
-#sec1 .slick-arrow{position:absolute;top:60%;z-index:9999999999;width: 100px; height: 50px;
+#sec1 .slick-arrow{position:absolute;top:55%;z-index:9999999999;width: 100px; height: 50px;
 border: none;
 background-color: transparent;
-
-
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-text-indent: -99999999999px;}
+text-indent: -99999999999px;cursor: pointer;}
 #sec1 .slick-prev{left:100px;background-image: url(../images/mainslider_l.png);}
 #sec1 .slick-next{right:100px;background-image: url(../images/mainslider_r.png);}
 
@@ -157,11 +155,11 @@ text-indent: -99999999999px;}
     background-repeat: no-repeat;
     background-size: cover;
     text-indent: -99999999999px;}
-#sec6 .slick-prev{left:-30px;background-image: url(../images/iconfinder_icon-arrow-left-c_211618.png);
-        background-size: 60px;
+#sec6 .slick-prev{left:-45px;background-image: url(../images/iconfinder_icon-arrow-left-c_211618.png);
+        background-size: 60px;cursor: pointer;
     }
-#sec6 .slick-next{right:-30px;background-image: url(../images/iconfinder_icon-arrow-right-c_211621.png);
-        background-size: 60px;
+#sec6 .slick-next{right:-45px;background-image: url(../images/iconfinder_icon-arrow-right-c_211621.png);
+        background-size: 60px;cursor: pointer;
     }
     
     
